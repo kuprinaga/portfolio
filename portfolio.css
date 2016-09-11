@@ -1,32 +1,14 @@
-
-/* navbar */
-.navbar-default {
-    background-color: rgba(255, 255, 255, 0.5) !important;
-    border-color: #E7E7E7;
-}
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    background-color: white !important;
-}
-
 body {
     background-image: url(bg.png);
     background-repeat: repeat;
     background-attachment: fixed;
     font-family: 'Raleway', sans-serif !important;
-
 }
 
-.footer {
-    background-color: rgba(255, 255, 255, 0.8);
-    margin-top: 2%;
-    text-align: center;
-}
-
-.link {
-    color: black;
-    text-decoration: none;
+button {
+    border: none;
+    background-color: inherit;
+    margin: 10%;
 }
 
 h3{
@@ -37,21 +19,6 @@ h3{
     display: inline-block;
     font-size: 0.9em !important;
     margin: 2px auto;
-}
-.skills {
-    font-weight: 600;
-}
-/*color: 234, 235, 236*/
-#portrait {
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 200px;
-}
-
-.intro {
-    text-align: center;
 }
 
 h1, h3 {
@@ -83,19 +50,11 @@ h1, h3 {
     margin-left: 5%;
     margin-right: 5%;
 }
-
+.wrapper:hover {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
 .wrapper p{
     margin-top: 2px;
-}
-
-#social:hover {
-    box-shadow: 2px;
-}
-
-button {
-    border: none;
-    background-color: inherit;
-    margin: 10%;
 }
 
 .courses {
@@ -103,3 +62,49 @@ button {
     text-align: left;
     line-height: 180%;
 }
+
+/* navbar */
+.navbar-default {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    border-color: #E7E7E7;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: white !important;
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 2%;
+    text-align: center;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.skills {
+    font-weight: 600;
+}
+
+
+.intro {
+    text-align: center;
+}
+
+#social:hover {
+    box-shadow: 2px;
+}
+
+/*color: 234, 235, 236*/
+#portrait {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+}
+
+
