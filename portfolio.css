@@ -11,6 +11,10 @@ button {
     margin: 10%;
 }
 
+p {
+    font-size: 1.2em;
+}
+
 h3{
     color: #2E2633;
     padding: 3px 8px;
